@@ -1,0 +1,17 @@
+body{
+    background: lightcoral;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+    color: brown;
+}
+ul{
+    background:chocolate;
+    font-size: 20px;
+    list-style-type: circle; 
+}
