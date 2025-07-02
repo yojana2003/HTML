@@ -1,0 +1,18 @@
+ /* In your main CSS file (e.g., styles.css) */
+ /* The modern CSS reset */
+ *,
+ *::before,
+ *::after {
+ box-sizing: border-box;
+ }
+ :root {--card-padding: 1.5rem; /* 24px */--card-border-radius: 10px;--card-border: 3px solid #333;--spacing-between-cards: 2rem; /* 32px */
+ }
+ .profile-card {
+ width: 300px;
+ padding: var(--card-padding);
+ border: var(--card-border);
+ border-radius: var(--card-border-radius);
+ margin: var(--spacing-between-cards);
+ background-color: #f0f0f0;
+ text-align: center;
+ }

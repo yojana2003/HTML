@@ -1,0 +1,21 @@
+body{
+    margin-top: 200px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(45deg,red,white,red);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-div{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    background-image: url(img.webp);
+    background-size: cover;
+    overflow: visible;
+    overflow: hidden;
+    overflow: auto;
+}
