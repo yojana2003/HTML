@@ -45,10 +45,12 @@ body{
     }
 }
 .container:hover .icon{
-    animation-name: circle ;
+    /* animation-name: circle ;
     animation-duration: 2s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
+    
+    animation: circle 2s linear infinite;
 }
 .text{
     display: flex;
