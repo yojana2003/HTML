@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(60deg,palevioletred,plum,palevioletred);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.main-div{
+    width: 30vw;
+    height: 60vh;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1) ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 2rem;
+    transition: all 3s ease-in-out;
+    animation: rotate 8s linear 2s infinite;
+}
+@keyframes rotate {
+    to{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(360deg);
+    }
+}
+
+.container{
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1) ;
+    border-radius: 3rem;
+    transform: rotate(-5deg) translateY(-10px);
+}
+.icon{
+    display: flex;
+    justify-content:center;
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+    animation-name: circle;
+    animation-duration: 5s;
+    /* animation-delay: 1s; */
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+}
+@keyframes circle {
+   0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);         
+
+    }
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    word-spacing: 10px;
+}
+p{
+    text-shadow: 0px 2px 2px palevioletred;
+}
